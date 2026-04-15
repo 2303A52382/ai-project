@@ -1,0 +1,63 @@
+/*Create a simple and clean CSS user interface with a white theme for 
+entering skills and displaying career prediction results*/
+/* Background with gradient */
+/* Background gradient */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #000428, #004e92);
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+/* Title */
+h1 {
+    margin-top: 30px;
+    font-size: 40px;
+    background: linear-gradient(to right, #00c6ff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Inputs */
+input, textarea {
+    padding: 12px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #00c6ff;
+}
+
+/* Cards */
+.card {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.3);
+}
+
+/* List spacing */
+ul {
+    margin-top: 10px;
+}
